@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 
-import { Banner } from "./Banner";
+import { Banner, type BannerType, type BannerVariant} from "./Banner";
+import type { ReactNode } from "react";
 
 const meta = {
   title: "Components/Banner",
@@ -39,11 +40,12 @@ const meta = {
 
 export default meta;
 
-type Story = StoryObj<typeof meta>;
+// type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
 
-export const Types: Story = {
+export const Default = {};
+
+export const Types = {
   render: () => (
     <div
       style={{
@@ -52,30 +54,22 @@ export const Types: Story = {
         flexWrap: "wrap",
       }}
     >
-      <Banner type="neutral">
-        Neutral
+      <Banner title="Notification" type="neutral">
       </Banner>
 
-      <Banner type="success">
-        Success
+      <Banner title="Notification" type="success">
       </Banner>
 
-      <Banner type="warning">
-        Warning
+      <Banner title="Notification" type="warning">
       </Banner>
 
-      <Banner type="error">
-        Error
-      </Banner>
-
-      <Banner type="neutral">
-        Neutral
+      <Banner title="Notification" type="error">
       </Banner>
     </div>
   ),
 };
 
-export const Variants: Story = {
+export const Variants = {
   render: () => (
     <div
       style={{

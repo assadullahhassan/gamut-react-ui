@@ -69,11 +69,11 @@ export const Banner = forwardRef<HTMLSpanElement, BannerProps>(
 
     return (
     <span ref={ref} className={'banner ' + `banner-${type}`} role="alert">
-        <span className={'icon '+ 'iconWrapper'}>{Icons[type]}</span>
-        <span className={'content'}>
-            {title && <p className={'title ' + `banner-${type}`}>{title}</p>}
+        <span className={`banner-icon `+ 'iconWrapper'}>{Icons[type]}</span>
+        <span className={'banner-content'}>
+            {title && <p className={'banner-title ' + `banner-${type}`}>{title}</p>}
             {variant === 'multiline' && (
-                <p className={'description ' + `banner-${type}`}>{children}</p>
+                <p className={'banner-description ' + `banner-${type}`}>{children}</p>
             )}
         </span>
      </span>

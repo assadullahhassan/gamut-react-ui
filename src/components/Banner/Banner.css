@@ -19,26 +19,26 @@
   flex-shrink: 0;
 }
 
-.icon {
+.banner-icon {
   width: 1.5rem;
   height: 1.5rem;
 }
 
-.content {
+.banner-content {
   display: flex;
   flex-direction: column;
   gap: 0.1rem;
   flex: 1;
 }
 
-.title {
+.banner-title {
   font-size: 14px;
   font-weight: 600;
   line-height: 1.25rem;
   margin: 0;
 }
 
-.description {
+.banner-description {
   font-size: 14px;
   font-weight:300;
   line-height: 20px;
