@@ -41,7 +41,6 @@ export interface BannerProps
   title: string;
   variant?: BannerVariant;
   type?: BannerType;
-  icon?: ReactNode;
   children?: ReactNode;
 }
 
@@ -51,7 +50,6 @@ export const Banner = forwardRef<HTMLSpanElement, BannerProps>(
       title = "Notification",
       variant = "singleline",
       type = "success",
-      icon,
       className,
       children,
       ...props

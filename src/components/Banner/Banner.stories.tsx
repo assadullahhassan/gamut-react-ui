@@ -26,9 +26,6 @@ const meta = {
       ],
     },
 
-    icon: {
-      control: false,
-    },
   },
 
   args: {

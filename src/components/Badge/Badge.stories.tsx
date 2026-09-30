@@ -49,7 +49,7 @@ const meta = {
 
   args: {
     children: "Badge",
-    variant: "neutral",
+    variant: "info",
     size: "md",
     dot: false,
   },
