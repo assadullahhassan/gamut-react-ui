@@ -9,7 +9,7 @@
 
 ---
   <p align="center">
-   <img src="./images/banner.jpg" alt="Gamut React UI Banner" width="90%" />
+   <img src="https://raw.githubusercontent.com/assadullahhassan/gamut-react-ui/refs/heads/main/images/banner.jpg" alt="Gamut React UI Banner" width="90%" />
   </p>
 
 ---
