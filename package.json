@@ -1,6 +1,7 @@
 {
   "name": "gamut-react-ui",
-  "version": "3.0.0",
+  "version": "3.0.1",
+  "license": "MIT",
   "private": false,
   "description": "A lightweight, accessible React component library built with TypeScript, Vite, and CSS.",
   "type": "module",
